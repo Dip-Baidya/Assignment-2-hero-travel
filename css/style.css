@@ -96,22 +96,50 @@
     padding-bottom: 24px;
 }
 
-.popular-tour-section-content p, ul{
+.popular-tour-section-content p,
+ul {
     color: #5A5A5D;
     font-size: 16px;
     line-height: 26px;
 }
 
-.popular-tour-section-content ul{
+.popular-tour-section-content ul {
     padding-left: 28px;
     padding-bottom: 24px;
 }
-.popular-tour-section-content ul>li{
+
+.popular-tour-section-content ul>li {
     padding-bottom: 16px;
     padding-top: 16px;
 }
-.popular-tour-section-content p{
+
+.popular-tour-section-content p {
     padding-bottom: 24px;
 }
 
 /* end popular section style   */
+
+/* start Choose Your Destination */
+
+.choose-your-destination {}
+
+.choose-your-destination-content {
+    text-align: center;
+}
+
+.choose-your-destination-content h3 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.choose-your-destination-content p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 45px;
+}
