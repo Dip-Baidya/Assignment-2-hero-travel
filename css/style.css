@@ -72,8 +72,46 @@
     font-size: 16px;
 }
 
-.banner-input-section>button>i {
+.btn-tomatto i {
     margin-right: 8px;
 }
 
 /* End Banner Section Style */
+
+/* start popular section style  */
+.popular-tour-section {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.popular-tour-section-content {
+    margin-right: 100px;
+}
+
+.popular-tour-section-content h3 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 24px;
+}
+
+.popular-tour-section-content p, ul{
+    color: #5A5A5D;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.popular-tour-section-content ul{
+    padding-left: 28px;
+    padding-bottom: 24px;
+}
+.popular-tour-section-content ul>li{
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+.popular-tour-section-content p{
+    padding-bottom: 24px;
+}
+
+/* end popular section style   */
