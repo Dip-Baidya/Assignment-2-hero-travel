@@ -246,3 +246,96 @@ ul {
 
 
 /* End Simple perfect place Style */
+
+
+/* start News latter Style */
+
+.newsletter-section {
+    display: flex;
+    margin-bottom: 100px;
+    /* border: 2px solid red; */
+}
+
+.newslatter-content {
+    width: 40%;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px;
+    margin-right: 24px;
+}
+
+.newslatter-content * {
+    margin: 10px;
+}
+
+.newsletter-content h2 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.newslatter-content p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.hr-design {
+    border: .2px solid rgba(19, 19, 24, 0.10);
+}
+
+
+.newslatter-content>form {
+    display: flex;
+    flex-direction: column;
+}
+
+.newslatter-content>form>input {
+    padding: 15px 25px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.newslatter-content>form>input::placeholder {
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.newslatter-image-area {
+    width: 60%;
+    height: 400px;
+    position: relative;
+}
+
+.newslatter-image-area .promo-code {
+    position: absolute;
+    right: 15px;
+    bottom: 34px;
+    width: 300px;
+    border-radius: 16px;
+    background: #FF5400;
+    padding: 30px 20px;
+    transform: rotate(-19.628deg);
+}
+
+.newslatter-image-area .promo-code>h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+
+}
+
+.newslatter-image-area .promo-code>h2 {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+
+/* end News latter Style */
