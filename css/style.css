@@ -53,7 +53,6 @@ nav {
     width: 100%;
     margin-top: 40px;
     margin-bottom: 40px;
-    /* height: 100px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -333,7 +332,6 @@ ul {
     backdrop-filter: blur(2.5px);
     padding: 20px;
 }
-
 .deal-discount-button-area {
     display: flex;
     margin: 20px;
@@ -343,14 +341,29 @@ ul {
 .deal-discount-price * {
     margin: 10px 0;
 }
+.deal-discount-date-inner{
+    
+}
 
-.deal-discount-date>span {
+.deal-discount-date-inner .span-inner {
     color: #5A5A5D;
     font-size: 16px;
     font-weight: 400;
-    display: flex;
-    align-items: center;
+    /* align-items: center; */
 }
+.deal-discount-date-inner-2 .span-inner {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    /* align-items: center; */
+}
+.deal-discount-date-inner-3 .span-inner {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    /* align-items: center; */
+}
+
 
 .deal-discount-price>h2 {
     color: #131318;
@@ -373,6 +386,7 @@ ul {
 
 .deal-discount-date {
     display: flex;
+    flex-wrap: wrap;
     gap: 24px;
 }
 
