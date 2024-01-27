@@ -3,6 +3,33 @@
         font-size: 21.543px;
     }
 
+    /* choose us section */
+
+    .choose-us-section {
+        margin: 20px;
+    }
+    .choose-us-service-container {
+        margin-top: 16px;
+    }
+
+    .choose-us-section>h1 {
+        font-size: 20px;
+    }
+
+    .choose-us-section>p {
+        font-size: 16px;
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    .choose-card-1>h3, .choose-card-2>h3, .choose-card-3>h3  {
+        font-size: 20px;
+    }
+
+    .choose-card-1>img, .choose-card-2>img,.choose-card-3>img {
+        width: 48px;
+    }
+
     /* A Simple Perfect Place To Get Lost*/
 
     .simple-perfect-place {
