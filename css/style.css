@@ -224,6 +224,7 @@ ul {
     padding-bottom: 45px;
 }
 
+
 .choose-your-destination-img-area .image-1 {
     grid-area: Maldives;
 }
@@ -252,7 +253,6 @@ ul {
     grid-area: Bandarban;
 }
 
-
 .choose-your-destination-img-area {
     display: grid;
     width: 100%;
@@ -267,6 +267,7 @@ ul {
     width: 100%;
     height: 300px;
 }
+
 
 /* end Choose Your Destination  */
 
@@ -332,6 +333,7 @@ ul {
     backdrop-filter: blur(2.5px);
     padding: 20px;
 }
+
 .deal-discount-button-area {
     display: flex;
     margin: 20px;
@@ -341,9 +343,6 @@ ul {
 .deal-discount-price * {
     margin: 10px 0;
 }
-.deal-discount-date-inner{
-    
-}
 
 .deal-discount-date-inner .span-inner {
     color: #5A5A5D;
@@ -351,12 +350,14 @@ ul {
     font-weight: 400;
     /* align-items: center; */
 }
+
 .deal-discount-date-inner-2 .span-inner {
     color: #5A5A5D;
     font-size: 16px;
     font-weight: 400;
     /* align-items: center; */
 }
+
 .deal-discount-date-inner-3 .span-inner {
     color: #5A5A5D;
     font-size: 16px;

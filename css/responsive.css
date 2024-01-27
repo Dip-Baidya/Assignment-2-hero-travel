@@ -3,6 +3,11 @@
         font-size: 21.543px;
     }
 
+    /* nav */
+    nav{
+        display: none;
+    }
+
     /* Deals & Discounts */
 
     .deal-discount-section {
