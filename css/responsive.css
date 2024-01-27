@@ -1,7 +1,62 @@
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
     span {
         font-size: 21.543px;
     }
+
+    /* newslatter */
+
+    .newsletter-section {
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .newslatter-content {
+        width: auto;
+        padding: 20px;
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+
+    .newslatter-content p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .newslatter-content>form>input {
+        padding: 12px 10px;
+    }
+
+    .newslatter-image-area {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+    .newslatter-image-area img {
+        width: 100%;
+    }
+
+    .newslatter-image-area .promo-code {
+        width: auto;
+        height: auto;
+        right: 5px;
+        transform: rotate(-36deg);
+        top: 81px;
+        bottom: 52px;
+    }
+
+    .newslatter-image-area .promo-code>h3 {
+        font-size: 15px;
+    }
+
+    .newslatter-image-area .promo-code>h2 {
+        font-size: 22px;
+    }
+
+
+
+    /* footer */
 
     .footer-section {
         padding: 30px 0;
